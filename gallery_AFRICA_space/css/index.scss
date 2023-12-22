@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Roboto:ital,wght@0,500;1,100&display=swap');
+
+
+
+
+body{
+  .rating {
+    width: 226px;
+    margin: 0 0 30px;
+    font-size: 45px;
+    overflow:hidden;
+  }
+  .rating a {
+    float:right;
+    color: #aaa;
+    text-decoration: none;
+    -webkit-transition: color .4s;
+    -moz-transition: color .4s;
+    -o-transition: color .4s;
+    transition: color .4s;
+  }
+  .rating a:hover,
+  .rating a:hover ~ a,
+  .rating a:focus,
+  .rating a:focus ~ a		{
+    color: orange;
+    cursor: pointer;
+  }
+  .rating2 {
+    direction: rtl;
+  }
+  .rating2 a {
+    float:none
+  }
+
+  font-family: 'Dosis', sans-serif;
+  .h1,h1,a,button{
+  font-family: 'Roboto', sans-serif;
+  }
+  .h3,h3,h4,h5,h6,.h3,.h4,.h5,.h6{
+    font-family: "Roboto", sans-serif;
+
+  }
+  .p{
+    font-family: "Roboto", sans-serif;
+  }
+  nav{
+    .active{
+      color: blue !important;
+    }
+    .h1{
+      color: black;
+      transition: all ease-in-out;
+      &:hover{
+        color: blue;
+      }
+    }
+    .dropdown-item{
+      background-color: white;
+      transition: all ease-in-out 0.5s;
+      &:hover{
+        background-color: dodgerblue;
+      }
+    }
+    @media screen and (max-width: 580px){
+      .lk{
+        display: none;
+      }
+    }
+  }
+  .carousel{
+    @media screen and (max-width: 961px){
+     display: none;
+    }
+  }
+  .sp{
+    width: 90px;
+    transition: all ease-in-out 2s;
+  }
+  .si{
+    transition: all ease-in-out 2s;
+    &:hover .sp{
+      width: 540px;
+    }
+  }
+  .hh{
+    @media screen and (max-width: 560px) {
+      display: none;
+    }
+  }
+  .card-body{
+    transition: all ease-in-out 0.5s;
+    button,a{
+      display: none;
+      transition: all ease-in-out 0.5s;
+    }
+    &:hover button, &:hover a{
+        display: initial;
+    }
+  }
+
+  }
+
+
+

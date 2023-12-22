@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Roboto:ital,wght@0,500;1,100&display=swap" rel="stylesheet">
+    <title>Title</title>
+</head>
+<body>
+   <header class="sticky-top">
+    <nav class="navbar navbar-expand-lg bg-white shadow border ">
+        <div class="container-fluid mx-1">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../images/LogoSample_ByTailorBrands.jpg" style="width: 70px; height: 70px" alt="">
+            </a>
+            <div class="d-flex d-inline-block d-lg-none">
+
+                <a href="../pages/connection.html" class=" ms-5 ms-md-5 " title="connectez-vous"><i class="fas fa-user text-body "></i></a>
+                <a href="../pages/selection.html" class=" ms-5 ms-md-5 " title="panier"><i class="fas fa-shopping-cart text-body "></i></a>
+
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item mx-3">
+                        <a class="nav-link fw-bold" aria-current="page" href="../pages/catalogue.html" title="catalogue">CATALOGUE</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link fw-bold" href="../pages/artiste.html" title="nos artistes">ARTISTES</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link fw-bold" href="../pages/exposition.html" title="vu en exposition">EN EXPOSITION</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link fw-bold" href="../pages/contact.html" title="contatez-nous">CONTACT</a>
+                    </li>
+
+                </ul>
+                <div >
+                    <a href="#" class="d-lg-inline d-md-none d-sm-none lk" title="recherche rapide" style="height: auto; text-decoration: none">
+                           <span class="position-relative">
+                               <label for="exampleDataList" class="form-label"></label>
+                               <input class="rounded-pill border bg-white" type="text" placeholder="Search"  list="datalistOptions" id="exampleDataList" style="border-radius: 20px;outline: 0;text-indent: 10px">
+                           <i class="fas fa-search" style="cursor: pointer;position: absolute;right: 15px;top: 4px;color: black"></i>
+                           </span>
+                        <datalist id="datalistOptions">
+                            <option value="Artiste">
+                            <option value="Catalogue">
+                            <option value="Contact">
+                            <option value="Conection">
+                            <option value="En Exposition">
+                        </datalist></a>
+                    <a href="../index.html" class="active d-lg-inline d-md-none d-sm-none lk" title="acceuil"><i class="fa fa-home mx-3 text-body"></i></a>
+                    <a href="../pages/connection.html" class="d-lg-inline d-md-none d-sm-none lk" title="#"><i class="fas fa-user mx-3 text-body "></i></a>
+                    <a href="../pages/selection.html" class="d-lg-inline d-md-none d-sm-none lk" title="panier"><i class="fas fa-shopping-cart mx-3 text-body "></i></a>
+
+                </div>
+
+            </div>
+        </div>
+    </nav>
+</header>
+   <div class="bg-image img-fluid  d-md-none  d-lg-block"
+     style="background-image: url('../images/Dessin/images.jpg');
+            height: 30vh">
+</div>
+   <div class="bg-image img-fluid d-none d-lg-none d-md-block"
+     style="background-image: url('../images/Dessin/images.jpg');
+            height: 15vh">
+</div>
+    <main class="container mt-5">
+        <div>
+            <p class="text-center display-6 fw-bold ">
+                BIENVENUE
+            </p>
+            <p class=" bg-danger m-auto " style="height: 5px;width: 90px"></p>
+            <p class="fs-5 fw-bold text-center mt-5 mb-5">
+                CONNEXION RAPIDE AVEC <i class="fa-brands fa-google " style="color:blue"></i>
+            </p>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-5">
+                <div class="card mb-3 px-3 border-0 bg-body-secondary" style="height: 293px">
+                    <div class="card-body">
+                        <h5 class="card-title">Nouveau client? Beinvenue!</h5>
+                        <div class="mb-5">
+                            <label for="exampleFormControlInput1" class="form-label"></label>
+                            <input type="email" class="form-control border-0" id="exampleFormControlInput1" placeholder="Adresse e-mail">
+                        </div>
+
+                        <div class="d-grid gap-2">
+
+
+                            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                S'incrire
+                            </button>
+
+
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">
+                                                CREEZ UN COMPTE
+                                            </h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="card bg-body-secondary border-0">
+                                                <div class="mx-4">
+                                                    <p class="mt-3 fs-5 fw-bold ">
+                                                        Vos informations Personnelles
+                                                    </p>
+                                                    <div>
+                                                        <p class="fw-bold">
+                                                            Titres
+                                                        </p>
+
+                                                        <div class="form-check-inline was-validated">
+                                                            <input class="form-check-input" type="radio" name="sexe" id="man" required>
+                                                            <label class="form-check-label" for="man">
+                                                                <strong>M</strong>
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check-inline was-validated">
+                                                            <input class=" form-check-input" type="radio" name="sexe" id="woman" required>
+                                                            <label class="form-check-label" for="woman">
+                                                                <strong>Mme</strong>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <div class="card-body mx-3">
+                                                    <div class="mb-3 was-validated">
+                                                        <label for="lastname" class="form-label fw-bold">Prenom</label>
+                                                        <input type="text" class="form-control border-0" id="lastname" required>
+                                                        <div class="valid-feedback">Valid.</div>
+                                                        <div class="invalid-feedback">S'il vous plaît remplir ce champ.</div>
+                                                    </div>
+                                                    <div class="mb-3 was-validated">
+                                                        <label for="name" class="form-label fw-bold">Nom</label>
+                                                        <input type="text" class="form-control border-0" id="name">
+                                                        <div class="valid-feedback">Valid.</div>
+                                                        <div class="invalid-feedback">S'il vous plaît remplir ce champ.</div>
+                                                    </div>
+                                                    <div class="mb-3 was-validated">
+                                                        <label for="emailtext" class="form-label fw-bold">E-mail</label>
+                                                        <input type="Email" class="form-control border-0" id="emailtext">
+                                                        <div class="valid-feedback">Valid.</div>
+                                                        <div class="invalid-feedback">S'il vous plaît remplir ce champ.</div>
+                                                    </div>
+                                                    <div class="mb-3 was-validated">
+                                                        <label for="password0" class="form-label fw-bold">Mot de passe</label>
+                                                        <input type="password" class="form-control border-0" id="password0" placeholder="5 caracteres min." required>
+                                                        <div class="valid-feedback">Valid.</div>
+                                                        <div class="invalid-feedback">S'il vous plaît remplir ce champ.</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer d-grid  gap-2 mx-auto mt-4">
+                                            <button class="btn btn-danger" type="submit">S'inscrire</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-5">
+                <div class="card mb-2 px-3 bg-body-secondary border-0 " style="height: 293px">
+                    <div class="card-body ">
+                        <h5 class="card-title">Deja inscrit? Connectez-vous</h5>
+                        <div class="mb-1">
+                            <label for="email" class="form-label"></label>
+                            <input type="email" class="form-control border-0" id="email" placeholder="Adresse e-mail">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label"></label>
+                            <input type="password" class="form-control border-0" id="password" placeholder="Mot de passe">
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-info" type="button" style="color: white">Connexion</button>
+                        </div>
+                        <div>
+                            <p class="text-center mt-2"> <small>
+                                <a href="#" class="text-secondary">Mot de passe oublie?</a>
+                            </small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </main>
+    <div class="container-fluid my-5">
+        <div class="row  bg-secondary-subtle" style="width: 100%;height: auto;font-size: 1.5em">
+            <p class="text-center my-5 col-lg-3 col-md-3 col-sm-4"><strong>Sélection d’artistes</strong><br>confirmés et émergeants</p>
+            <p class="text-center my-5 col-lg-3 col-md-3 col-sm-4"><strong>Authenticité garantie</strong><br>vérifiée par nos soins</p>
+            <p class=" text-center my-5 col-lg-3 col-md-3 col-sm-4"><strong>Livraison internationale</strong><br>par des spécialistes</p>
+            <p class=" text-center my-5 col-lg-3 col-md-3 col-sm-4"><strong>Paiements sécurisés</strong><br>par cartes bancaires et virements</p>
+        </div>
+    </div>
+    <div class="container-fluid border shadow my-5">
+        <footer class="py-5 ">
+            <div class="row">
+                <div class="col-6 col-md-3 mb-3">
+                    <h5>Navigation</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="catalogue.html" class="nav-link p-0 text-muted">CATALOGUE</a></li>
+                        <li class="nav-item mb-2"><a href="artiste.html" class="nav-link p-0 text-muted">NOS ARTISTES</a></li>
+                        <li class="nav-item mb-2"><a href="contact.html" class="nav-link p-0 text-muted">CONTACT</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3 mb-3">
+                    <h5>Catalogue</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">DESSIN</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">OEUVRES D'ART</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">PEINTURES</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">SCULPTURES</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-5 offset-md-1 mb-3">
+                    <form>
+                        <h5>Subscribe to our newsletter</h5>
+                        <p>Monthly digest of what's new and exciting from us.</p>
+                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                            <label for="newsletter1" class="visually-hidden">Email address</label>
+                            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                            <button class="btn btn-primary" type="button">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                <p>&copy; 2023 Company, AFRICA SPACE . All rights reserved.</p>
+                <ul class="list-unstyled d-flex">
+                    <li class="ms-3"><a class="link-dark" href="#"><img src="../images/téléchargement.jpg" class="bi" style="height: 24px;width: 24px" alt=""></a></li>
+                    <li class="ms-3"><a class="link-dark" href="#"><img src="../images/téléchargement.png" class="bi" style="height: 24px;width: 24px" alt=""></a></li>
+                    <li class="ms-3"><a class="link-dark" href="#"><img src="../images/téléchargement%20(2).png" class="bi" style="height: 24px;width: 24px" alt=""></a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/all.min.js"></script>
+</body>
+</html>

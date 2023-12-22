@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Roboto:ital,wght@0,500;1,100&display=swap" rel="stylesheet">
+    <title>Catalogue</title>
+</head>
+<body>
+<header class="sticky-top">
+    <nav class="navbar navbar-expand-lg bg-white shadow border">
+        <div class="container-fluid mx-1">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../images/LogoSample_ByTailorBrands.jpg" style="width: 70px; height: 70px" alt="">
+            </a>
+            <div class="d-flex d-inline-block d-lg-none">
+
+                <a href="../pages/connection.html" class=" ms-5 ms-md-5 " title="connectez-vous"><i class="fas fa-user text-body "></i></a>
+                <a href="../pages/selection.html" class=" ms-5 ms-md-5 " title="panier"><i class="fas fa-shopping-cart text-body "></i></a>
+
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item mx-3">
+                        <a class="nav-link fw-bold active" aria-current="page" href="#" title="catalogue">CATALOGUE</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link fw-bold" href="../pages/artiste.html" title="nos artistes">ARTISTES</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link fw-bold" href="../pages/exposition.html" title="vu en exposition">EN EXPOSITION</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link fw-bold" href="../pages/contact.html" title="contatez-nous">CONTACT</a>
+                    </li>
+
+                </ul>
+                <div >
+                    <a href="#" class="d-lg-inline d-md-none d-sm-none lk" title="recherche rapide" style="height: auto; text-decoration: none">
+                           <span class="position-relative">
+                               <label for="exampleDataList" class="form-label"></label>
+                               <input class="rounded-pill border bg-white" type="text" placeholder="Search"  list="datalistOptions" id="exampleDataList" style="border-radius: 20px;outline: 0;text-indent: 10px">
+                           <i class="fas fa-search" style="cursor: pointer;position: absolute;right: 15px;top: 4px;color: black"></i>
+                           </span>
+                        <datalist id="datalistOptions">
+                            <option value="Artiste">
+                            <option value="Catalogue">
+                            <option value="Contact">
+                            <option value="Conection">
+                            <option value="En Exposition">
+                        </datalist></a>
+                    <a href="../index.html" class="active d-lg-inline d-md-none d-sm-none lk" title="acceuil"><i class="fa fa-home mx-3 text-body"></i></a>
+                    <a href="../pages/connection.html" class="d-lg-inline d-md-none d-sm-none lk" title="connectez-vous"><i class="fas fa-user mx-3 text-body "></i></a>
+                    <a href="../pages/selection.html" class="d-lg-inline d-md-none d-sm-none lk" title="panier"><i class="fas fa-shopping-cart mx-3 text-body "></i></a>
+
+                </div>
+
+            </div>
+        </div>
+    </nav>
+</header>
+<div class="bg-image d-md-none  d-lg-block"
+     style="background-image: url('../images/travail-mixe-de-photographie-et-peinture.jpg');
+            height: 40vh">
+</div>
+<div class="bg-image d-none d-lg-none d-md-block "
+     style="background-image: url('../images/travail-mixe-de-photographie-et-peinture.jpg');
+            height: 25vh">
+</div>
+    <div class="container">
+        <div class="accordion accordion-flush" >
+            <div class="accordion-item bg-secondary-subtle d-lg-none">
+                <h2 class="accordion-header ">
+                    <button  class="accordion-button collapsed 1 accordion-button collapsed" type="button" data-bs-toggle1="collapse " data-bs-target1="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"  data-bs-toggle="collapse" data-bs-target="#collapseTwo" style="width: 100%;">
+                        FILTRER
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p class="mx-3">Catégorie</p>
+                        <div class="form-check mx-3">
+                            <input class="form-check-input" type="radio"  id="des" name="search">
+                            <label class="form-check-label" for="des"> Dessin (4)</label><br>
+                            <input class="form-check-input" type="radio" id="oeuvre"  name="search">
+                            <label class="form-check-label" for="oeuvre">Oeuvres (4)</label><br>
+                            <input class="form-check-input" type="radio"  id="peinture" name="search">
+                            <label class="form-check-label" for="peinture">Peintures (7)</label><br>
+                            <input class="form-check-input" type="radio" id="photographie"  name="search">
+                            <label class="form-check-label" for="photographie">Photographies (4)</label><br>
+                            <input class="form-check-input" type="radio" id="sculptur" name="search">
+                            <label class="form-check-label" for="sculptur">Sculptures (6)</label>
+                        </div>
+                        <p class="mx-3 my-3">Artistes</p>
+                        <div class="form-check mx-3" size="3" aria-label="Size 3 select example">
+                            <input class="form-check-input" type="radio"  id="ahc" name="search">
+                            <label class="form-check-label" for="ahc"> AHMED (2)</label><br>
+                            <input class="form-check-input" type="radio" id="cec"  name="search">
+                            <label class="form-check-label" for="cec"> CELINE (2)</label><br>
+                            <input class="form-check-input" type="radio"  id="doc" name="search">
+                            <label class="form-check-label" for="doc"> DONALD (3)</label><br>
+                            <input class="form-check-input" type="radio" id="dyc" name="search">
+                            <label class="form-check-label" for="dyc">DYLAN (2)</label><br>
+                            <input class="form-check-input" type="radio" id="frc"  name="search">
+                            <label class="form-check-label" for="frc"> FRANK (3)</label><br>
+                            <input class="form-check-input" type="radio" id="frec"  name="search">
+                            <label class="form-check-label" for="frec"> FRED (2)</label><br>
+                            <input class="form-check-input" type="radio"  id="grc" name="search">
+                            <label class="form-check-label" for="grc"> GREC (2)</label><br>
+                            <input class="form-check-input" type="radio" id="lec" name="search">
+                            <label class="form-check-label" for="lec"> LEO (3)</label><br>
+                            <input class="form-check-input" type="radio" id="luc"  name="search">
+                            <label class="form-check-label" for="luc"> LUCY (2)</label><br>
+                            <input class="form-check-input" type="radio" id="gac" name="search">
+                            <label class="form-check-label" for="gac"> GAUTHIER (4)</label>
+                        </div>
+                        <p class="mx-3 my-2">PRIX</p>
+                        <div class="from-check mx-3">
+                            10.000 FCFA - 700.000 FCFA
+                            <input type="range" id="prix" min="10000" max="700000" step="5000">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <main class="container">
+        <div class="row my-5 ">
+            <div class="col-lg-2 bg-secondary-subtle border shadow hh d-lg-block mx-lg-2 d-md-none d-sm-none" style="height: auto">
+                <h3 CLASS=" mx-3 my-4">FILTRER</h3>
+                <p class="mx-3">Catégorie</p>
+                <div class="form-check mx-3">
+                    <input class="form-check-input" type="radio"  id="dess" name="search">
+                    <label class="form-check-label" for="dess"> Dessin (4)</label><br>
+                    <input class="form-check-input" type="radio" id="oeuvres"  name="search">
+                    <label class="form-check-label" for="oeuvres">Oeuvres (4)</label><br>
+                    <input class="form-check-input" type="radio"  id="peintures" name="search">
+                    <label class="form-check-label" for="peintures">Peintures (7)</label><br>
+                    <input class="form-check-input" type="radio" id="photographies"  name="search">
+                    <label class="form-check-label" for="photographies">Photographies (4)</label><br>
+                    <input class="form-check-input" type="radio" id="sculpture" name="search">
+                    <label class="form-check-label" for="sculpture">Sculptures (6)</label>
+                </div>
+                <p class="mx-3 my-3">Artistes</p>
+                <div class="form-check mx-3" size="3" aria-label="Size 3 select example">
+                    <input class="form-check-input" type="radio"  id="ah" name="search">
+                    <label class="form-check-label" for="ah"> AHMED (2)</label><br>
+                    <input class="form-check-input" type="radio" id="ce"  name="search">
+                    <label class="form-check-label" for="ce"> CELINE (2)</label><br>
+                    <input class="form-check-input" type="radio"  id="do" name="search">
+                    <label class="form-check-label" for="do"> DONALD (3)</label><br>
+                    <input class="form-check-input" type="radio" id="dy" name="search">
+                    <label class="form-check-label" for="dy">DYLAN (2)</label><br>
+                    <input class="form-check-input" type="radio" id="fr"  name="search">
+                    <label class="form-check-label" for="fr"> FRANK (3)</label><br>
+                    <input class="form-check-input" type="radio" id="fre"  name="search">
+                    <label class="form-check-label" for="fre"> FRED (2)</label><br>
+                    <input class="form-check-input" type="radio"  id="gr" name="search">
+                    <label class="form-check-label" for="gr"> GREC (2)</label><br>
+                    <input class="form-check-input" type="radio" id="le" name="search">
+                    <label class="form-check-label" for="le"> LEO (3)</label><br>
+                    <input class="form-check-input" type="radio" id="lu"  name="search">
+                    <label class="form-check-label" for="lu"> LUCY (2)</label><br>
+                    <input class="form-check-input" type="radio" id="ga" name="search">
+                    <label class="form-check-label" for="ga"> GAUTHIER (4)</label>
+                </div>
+                <p class="mx-3 my-2">PRIX</p>
+                <div class="from-check mx-3">
+                    10.000 FCFA - 700.000 FCFA
+                    <input type="range" id="price" min="10000" max="700000" step="5000">
+                </div>
+
+            </div>
+            <div class="col-lg-9 mx-1 mx-md-0 ">
+                <h1 class="text-center">CATALOGUE D'ART</h1>
+                <p class=" bg-danger m-auto " style="height: 5px;width: 90px"></p>
+                <p class="my-5">Envie de savoir en quoi consiste <strong>l’art contemporain africain </strong>? Vous aimeriez découvrir <strong>des œuvres uniques</strong>, spécialement <strong>sélectionnées</strong> avec le regard <strong>féminin d’AFRICA SPACE</strong>, situé au <strong>Cameroun</strong> ? Nous avons rassemblé pour vous <strong>les artistes montants</strong> qui valent le détour.</p>
+                <p class="h6  d-lg-flex justify-content-between "><small class="col-md-8">25 produits</small><small class=" d-flex justify-content-between col-md-4 gap-2"><small class="my-3 h5">Tri</small><select class="form-select bg-secondary-subtle border-0 shadow-none" aria-label=" select example">
+                    <option selected class="bg-dark text-black border ">---</option>
+                    <option value="1" class="bg-dark text-black border ">DE A-Z</option>
+                    <option value="2" class="bg-dark text-black border ">DE Z-A</option>
+                    <option value="3" class="bg-dark text-black border ">LE MOINS CHER</option>
+                    <option value="4" class="bg-dark text-black border ">LE PLUS CHER</option>
+                    <option value="5" class="bg-dark text-black border ">DATE D'AJOUT CROISSANT</option>
+                </select></small>
+                </p>
+                <div class="row my-5">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card border shadow">
+                            <img src="../images/PHOTOGRAPHIE/PHOT3.jpg" class="card-img-top" style="height: 300px;">
+                            <div class="card-body my-3">
+                                <h5 class="card-title text-center">BLACK</h5>
+                                <p class="card-text text-center">Made Senegal</p>
+                                <p class="card-text text-center"><small class="text-body-secondary">104.000 FCFA</small></p>
+                                <p class="text-center"><a href="#" class="btn btn-danger">Voir plus</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card border shadow">
+                            <img src="../images/PHOTOGRAPHIE/téléchargement%20(4).jpg" style="filter: brightness(15%);height: 300px">
+                            <a href="#" class="btn btn-danger bg-white text-danger position-absolute start-50 bottom-50 mb-5 disabled">VENDU</a>
+                            <div class="card-body my-3">
+                                <h5 class="card-title text-center">DRESS</h5>
+                                <p class="card-text text-center">Made Cameroun</p>
+                                <p class="card-text text-center"><small class="text-body-secondary">100.000 FCFA</small></p>
+                                <p class="text-center"><a href="#" class="btn btn-danger">Voir plus</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card border shadow">
+                            <img src="../images/PHOTOGRAPHIE/plan-view-local-ghanaian-dish-260nw-1845330106.jpg" class="card-img-top" style="filter: brightness(15%);height: 300px">
+                            <a href="#" class="btn btn-danger bg-white text-danger position-absolute start-50 bottom-50 mb-5 disabled">VENDU</a>
+                            <div class="card-body my-3">
+                                <h5 class="card-title text-center">GASTRO</h5>
+                                <p class="card-text text-center">Made Ghana</p>
+                                <p class="card-text text-center"><small class="text-body-secondary">50.000 FCFA</small></p>
+                                <p class="text-center"><a href="#" class="btn btn-danger">Voir plus</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card border shadow">
+                            <img src="../images/SCULPTURE/colorful-mask-african-style-tribal-260nw-1849750099.jpg" class="card-img-top" style="height: 300px;">
+                            <div class="card-body my-3">
+                                <h5 class="card-title text-center">TRIBAL</h5>
+                                <p class="card-text text-center">Made RSA</p>
+                                <p class="card-text text-center"><small class="text-body-secondary">600.000 FCFA</small></p>
+                                <p class="text-center"><a href="#" class="btn btn-danger">Voir plus</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row my-5">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card border shadow">
+                            <img src="../images/Dessin/images%20(2).jpg" class="card-img-top" style="filter: brightness(15%);height: 300px">
+                            <a href="#" class="btn btn-danger bg-white text-danger position-absolute start-50 bottom-50 mb-5 disabled">VENDU</a>
+                            <div class="card-body my-3">
+                                <h5 class="card-title text-center">ISOLATED</h5>
+                                <p class="card-text text-center">Made Togo</p>
+                                <p class="card-text text-center"><small class="text-body-secondary">500.000 FCFA</small></p>
+                                <p class="text-center"><a href="#" class="btn btn-danger">Voir plus</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card border shadow">
+                            <img src="../images/Oeuvres/soundjata-ou-l-epopee-mandingue.webp" class="card-img-top" style="height: 300px;">
+                            <div class="card-body my-3">
+                                <h5 class="card-title text-center">SOUNDJATA</h5>
+                                <p class="card-text text-center">Made CIV</p>
+                                <p class="card-text text-center"><small class="text-body-secondary">20.000 FCFA</small></p>
+                                <p class="text-center"><a href="#" class="btn btn-danger">Voir plus</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card border shadow">
+                            <img src="../images/PHOTOGRAPHIE/beautiful-african-women-fantastic-golden-260nw-1952986171.jpg" class="card-img-top" style="filter: brightness(15%);height: 300px">
+                            <a href="#" class="btn btn-danger bg-white text-danger position-absolute start-50 bottom-50 mb-5 disabled">VENDU</a>
+                            <div class="card-body my-3">
+                                <h5 class="card-title text-center">BEAUTIFUL-WOMEN</h5>
+                                <p class="card-text text-center">Made Cameroun</p>
+                                <p class="card-text text-center"><small class="text-body-secondary">700.000 FCFA</small></p>
+                                <p class="text-center"><a href="#" class="btn btn-danger">Voir plus</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card border shadow">
+                            <img src="../images/PEINTURE/téléchargement%20(7).jpg" class="card-img-top" style="height: 300px;">
+                            <div class="card-body my-3">
+                                <h5 class="card-title text-center">ISO</h5>
+                                <p class="card-text text-center">Made Rwanda</p>
+                                <p class="card-text text-center"><small class="text-body-secondary">600.000 FCFA</small></p>
+                                <p class="text-center"><a href="#" class="btn btn-danger">Voir plus</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row my-5">
+                    <div class="col-lg-3 col-md-6 ">
+                        <div  class="card border shadow">
+                            <img src="../images/SCULPTURE/saint-louis-senegal-africa-november-260nw-2386013165.jpg" class="card-img-top" style="height: 300px;">
+                            <a href="#" class="btn btn-danger position-absolute start-0 mx-2 d-md-none d-sm-none">CERTIFICAT</br> d'authenticité</a>
+                            <div class="card-body my-3">
+                                <h5 class="card-title text-center">SAINT-LOUIS</h5>
+                                <p class="card-text text-center">Made Senegal</p>
+                                <p class="card-text text-center"><small class="text-body-secondary">450.000 FCFA</small></p>
+                                <p class="text-center"><a href="#" class="btn btn-danger">Voir plus</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div aria-label="Page navigation example">
+            <ul class="pagination justify-content-end">
+                <li class="page-item">
+                    <a class="page-link" href="catalogue.html">Previous</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="catalogue.html">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="catalogue.html">Next</a>
+                </li>
+            </ul>
+        </div>
+
+    </main>
+   <div class="container-fluid my-5">
+       <div class="row  bg-secondary-subtle" style="width: 100%;height: auto;font-size: 1.5em">
+           <p class="text-center my-5 col-lg-3 col-md-3 col-sm-4"><strong>Sélection d’artistes</strong><br>confirmés et émergeants</p>
+           <p class="text-center my-5 col-lg-3 col-md-3 col-sm-4"><strong>Authenticité garantie</strong><br>vérifiée par nos soins</p>
+           <p class=" text-center my-5 col-lg-3 col-md-3 col-sm-4"><strong>Livraison internationale</strong><br>par des spécialistes</p>
+           <p class=" text-center my-5 col-lg-3 col-md-3 col-sm-4"><strong>Paiements sécurisés</strong><br>par cartes bancaires et virements</p>
+       </div>
+   </div>
+   <div class="container-fluid border shadow my-5">
+       <footer class="py-5 ">
+           <div class="row">
+               <div class="col-6 col-md-3 mb-3">
+                   <h5>Navigation</h5>
+                   <ul class="nav flex-column">
+                       <li class="nav-item mb-2"><a href="catalogue.html" class="nav-link p-0 text-muted">CATALOGUE</a></li>
+                       <li class="nav-item mb-2"><a href="artiste.html" class="nav-link p-0 text-muted">NOS ARTISTES</a></li>
+                       <li class="nav-item mb-2"><a href="contact.html" class="nav-link p-0 text-muted">CONTACT</a></li>
+                   </ul>
+               </div>
+               <div class="col-6 col-md-3 mb-3">
+                   <h5>Catalogue</h5>
+                   <ul class="nav flex-column">
+                       <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">DESSIN</a></li>
+                       <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">OEUVRES D'ART</a></li>
+                       <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">PEINTURES</a></li>
+                       <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">SCULPTURES</a></li>
+                   </ul>
+               </div>
+               <div class="col-md-5 offset-md-1 mb-3">
+                   <form>
+                       <h5>Subscribe to our newsletter</h5>
+                       <p>Monthly digest of what's new and exciting from us.</p>
+                       <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                           <label for="newsletter1" class="visually-hidden">Email address</label>
+                           <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                           <button class="btn btn-primary" type="button">Subscribe</button>
+                       </div>
+                   </form>
+               </div>
+           </div>
+
+           <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+               <p>&copy; 2023 Company, AFRICA SPACE . All rights reserved.</p>
+               <ul class="list-unstyled d-flex">
+                   <li class="ms-3"><a class="link-dark" href="#"><img src="../images/téléchargement.jpg" class="bi" width="24" height="24"></a></li>
+                   <li class="ms-3"><a class="link-dark" href="#"><img src="../images/téléchargement.png" class="bi" width="24" height="24"></a></a></li>
+                   <li class="ms-3"><a class="link-dark" href="#"><img src="../images/téléchargement%20(2).png" class="bi" width="24" height="24"></a></a></li>
+               </ul>
+           </div>
+       </footer>
+   </div>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/all.min.js"></script>
+</body>
+</html>
